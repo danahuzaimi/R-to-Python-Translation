@@ -19,7 +19,7 @@ g.set_axis_labels("Column", "Row")
 g.fig.subplots_adjust(right=0.9)
 cbar_ax = g.fig.add_axes([0.92, .3, .02, .4])  # Create an axis for the colorbar
 g.figure.colorbar(g.axes[0, 0].collections[0], cax=cbar_ax)
-g.fig.suptitle("Background corrected cell number in CTG data", size=16, y=1.05)
+g.fig.suptitle("Background corrected cell number in data", size=16, y=1.05)
 
 # Adjust font size
 sns.set(font_scale=0.8)
