@@ -2,7 +2,7 @@
 samples = curData['Compound_Annot'].unique()
 
 # Create a list 'rmSamples' containing names of samples to be removed
-rmSamples = ["Media_NA", "DMSO_NA", "TCells_NA", "POM_NA", "CC-885_NA", "ABBV_NA"]
+rmSamples = ["Media_NA", "DMSO_NA", "Cells_NA", "P_NA", "C_NA", "A_NA"]
 
 #remove rmSamples from samples
 samples = list(set(samples) - set(rmSamples))
